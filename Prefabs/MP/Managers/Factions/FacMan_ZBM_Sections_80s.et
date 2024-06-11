@@ -1,0 +1,119 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
+   UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+    Name "BLUFOR"
+    m_sNameUpper "BLUFOR"
+   }
+   m_bIsPlayable 0
+   m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+    m_aSquadNames {
+     SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+      m_sCallsign "1PLT"
+     }
+     SCR_CallsignInfo "{55CCB792D13759D8}" {
+      m_sCallsign "1st Section"
+     }
+     SCR_CallsignInfo "{55CCB792D1218E95}" {
+      m_sCallsign "2nd Section"
+     }
+     SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+      m_sCallsign "3rd Section"
+     }
+     SCR_CallsignInfo "{604A437E349E5866}" {
+      m_sCallsign "4th Section"
+     }
+     SCR_CallsignInfo "{604A437E345E5142}" {
+      m_sCallsign "5th Section"
+     }
+     SCR_CallsignInfo "{604A437E3697E70E}" {
+      m_sCallsign "Spectator"
+     }
+    }
+    m_sCallsignGroupFormat "%3"
+   }
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{604A437E0A13AD04}" {
+     m_sGroupName "1PLT"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 5
+    }
+    SCR_GroupPreset "{604A437E18FECE80}" {
+     m_sGroupName "1st Section"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E18BE0569}" {
+     m_sGroupName "2nd Section"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E186F07EB}" {
+     m_sGroupName "3rd Section"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E1811D00C}" {
+     m_sGroupName "4th Section"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E183B312A}" {
+     m_sGroupName "5th Section"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 5
+     m_iRadioFrequency 0
+    }
+   }
+   m_bCreateOnlyPredefinedGroups 1
+  }
+  SCR_Faction "{56DEAC40D3C2E623}" : "{09727032415AC39B}Configs/Factions/USSR.conf" {
+   UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
+    Name "OPFOR"
+    m_sNameUpper "OPFOR"
+   }
+   m_bIsPlayable 0
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{604A437E4875E8D8}" {
+     m_sGroupName "1PLT"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 5
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E57FCB2A4}" {
+     m_sGroupName "1st Section"
+     m_iGroupSize 12
+    }
+    SCR_GroupPreset "{604A437E5799DC7C}" {
+     m_sGroupName "2nd Section"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E57BA4042}" {
+     m_sGroupName "3rd Section"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E576104F3}" {
+     m_sGroupName "4th Section"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{604A437E572EACFC}" {
+     m_sGroupName "5th Section"
+     m_iGroupSize 5
+     m_iRadioFrequency 0
+    }
+   }
+   m_bCreateOnlyPredefinedGroups 1
+  }
+  SCR_Faction "{56DEAC40D132400B}" : "{8053DB656DD18B14}Configs/Factions/FIA.conf" {
+   m_bIsPlayable 0
+  }
+ }
+}
