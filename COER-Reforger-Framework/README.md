@@ -8,5 +8,3 @@ If you would like to contribute to this repo, feel free to fork and PR as you se
 
 # Further Info
 Most of the discussion relating to this Framework takes place on Coalition's own discord! [Discord](https://discord.gg/the-coalition), feel free to take part or just read up.
-
-<img src="http://coalitiongroup.net/coalition.png">
