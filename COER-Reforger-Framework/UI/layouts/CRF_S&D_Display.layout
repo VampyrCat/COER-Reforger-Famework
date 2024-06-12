@@ -1,0 +1,48 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{612734D48040FA26}" {
+   Name "Background"
+   Slot FrameWidgetSlot "{612734D48040FA7F}" {
+    Anchor 0.5 0 0.5 0
+    PositionX -60.588
+    OffsetLeft -60.588
+    PositionY 24.77
+    OffsetTop 24.77
+    SizeX 119.996
+    OffsetRight -59.408
+    SizeY 44.78
+    OffsetBottom -69.55
+   }
+   Opacity 0
+   Color 0 0 0 0.333
+   "Shadow Offset" 0.5 0.5
+  }
+  TextWidgetClass "{612734D4E397B2B1}" {
+   Name "Timer"
+   Slot FrameWidgetSlot "{612734D4E397B329}" {
+    Anchor 0.5 0 0.5 0
+    PositionX -65.816
+    OffsetLeft -65.816
+    PositionY 24.77
+    OffsetTop 24.77
+    SizeX 129.998
+    OffsetRight -64.182
+    SizeY 39.545
+    OffsetBottom -64.315
+   }
+   Opacity 0
+   Color 0.578 0.053 0.053 1
+   Text "--:--"
+   "Font Size" 32
+   "Min Font Size" 32
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{612734D416229D9E}" {
+    Font "{0E041C5B1F27DCEA}ui/fonts/robotomono_msdf_28.fnt"
+    ShadowSize 2
+    ShadowOffset 0.8 0.8
+   }
+  }
+ }
+}
