@@ -1,5 +1,5 @@
 # CRF - COER Reforger Framework
-This is the Arma Reforger Framework developed and used by COALITION changed by COER to host our missions on.
+This is the Arma Reforger Framework developed and used by COALITION and changed by COER to host our missions on.
 
 # Contributing and Reporting Issues/Feature Requests
 This Framework is open to be used by and contributed to by other Reforger Groups, it is licensed under the Arma Public License.
