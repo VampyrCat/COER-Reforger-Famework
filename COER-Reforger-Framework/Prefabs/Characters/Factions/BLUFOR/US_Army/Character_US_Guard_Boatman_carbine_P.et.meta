@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{34C4428FD54B071B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Guard_Boatman_carbine_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
