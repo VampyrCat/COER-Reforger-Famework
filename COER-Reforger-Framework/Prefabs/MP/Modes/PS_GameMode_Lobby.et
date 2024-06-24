@@ -1,0 +1,88 @@
+PS_GameModeCoop : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  PS_CutsceneManager "{61B12B4E2B2ECA58}" {
+  }
+  PS_MissionDataManager "{61B12B4E2B2ECA53}" {
+  }
+  PS_MissionDescriptionManager "{61B12B4E2B2ECA2E}" {
+  }
+  PS_ObjectiveManager "{61B12B4E2B2ECA2C}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{61B12B4E2B2ECA29}" {
+     m_iScore 0
+     m_sName "#PS-ObjectiveLevel_MajorLoss"
+    }
+    PS_ObjectiveLevel "{61B12B4E2B2ECA24}" {
+     m_iScore 25
+     m_sName "#PS-ObjectiveLevel_MinorLoss"
+    }
+    PS_ObjectiveLevel "{61B12B4E2B2ECA22}" {
+     m_iScore 50
+     m_sName "#PS-ObjectiveLevel_Draw"
+    }
+    PS_ObjectiveLevel "{61B12B4E2B2ECA20}" {
+     m_iScore 75
+     m_sName "#PS-ObjectiveLevel_MinorVictory"
+    }
+    PS_ObjectiveLevel "{61B12B4E2B2ECA3E}" {
+     m_iScore 100
+     m_sName "#PS-ObjectiveLevel_MajorVictory"
+    }
+   }
+  }
+  PS_PlayableManager "{61B12B4E2B2ECA3D}" {
+  }
+  PS_VoNRoomsManager "{61B12B4E2B2ECA38}" {
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iKillFeedType DISABLED
+   m_iReceiveKillFeedType ALL
+  }
+  SCR_PreGameGameModeStateComponent "{61B12B4E2B2ECA31}" {
+   m_fDuration 0
+  }
+  SCR_ReconnectComponent "{5A02809D5E8ABE42}" {
+   Enabled 0
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_SpawnLogic "{61B12B4E2B2ECA08}" {
+   }
+  }
+  SCR_SaveLoadComponent "{61B12B4E2B2ECA06}" {
+   m_Struct SCR_MissionStruct "{61B12B4E2B2ECA04}" {
+    m_Struct0 SCR_EditorStruct "{61B12B4E2B2ECA02}" {
+     m_AttributeList SCR_EditorAttributeList "{590C7881C296FA7D}" : "{F3D6C6D25642352C}Configs/Editor/AttributeLists/Edit.conf" {
+     }
+    }
+   }
+   m_iAutosavePeriod 600
+  }
+  SCR_TimeAndWeatherHandlerComponent "{61B12B4E2B2ECA1C}" {
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   Enabled 0
+  }
+ }
+ coords 0 0 0
+ PlayerControllerPrefab "{4E5DAC62A374950F}Prefabs/Characters/Core/DefaultPlayerControllerMP_Coop.et"
+ m_bAutoPlayerRespawn 0
+ m_bAllowFactionChange 0
+ {
+  SCR_FactionManager "5EA8C932C68D400F" : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+   ID "61B12B4E2B2ECA75"
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+   ID "61B12B4E2B2ECA4F"
+  }
+  ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+   ID "61B12B4E2B2ECA4A"
+  }
+  ItemPreviewManagerEntity "5E7AE0AB2109F297" : "{AB5D049A3AB43FC0}Prefabs/World/Game/ItemPreviewManager_PS.et" {
+   ID "61B12B4E2B2ECA49"
+  }
+ }
+}
