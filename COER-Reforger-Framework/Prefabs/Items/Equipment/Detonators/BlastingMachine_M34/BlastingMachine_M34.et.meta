@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7AC107CA7AFC9B59}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+ Name "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
